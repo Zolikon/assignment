@@ -18,6 +18,9 @@ Aki nem otthonos a gitben:
 * Küldjétek el nekem a **zoltan_pozsonyi@epam.com** címre. Ez céges email, ha valami teljesen ismeretlen vagy egyszer haszálatos emailről küldtök lehet hogy spam lesz belőle
 * **A leadási határidő október 16.(hétfő) reggel 8:00**
 
+**UPDATE:** Kiderült hogy a céges mail szerver nem hagyja, hogy forráskódot küldjünk emailben, vírusnak nézi. A filet töltsétek fel valamilyen tárhelyre(monjuk google drive) és osszátok meg.
+A megosztási linket küldjétek el. Hogy ne legyenek felesleges körök javaslom, hogy ellenőrízzétek a megosztást privát böngészés módban. Ha ott működik a link, akkor én is meg tudom majd nyitni. 
+
 ### Az értékelés:
 Alapvetően a következőket fogom nézni:
 * mennyire jól feditek le a kódot teszt esetekkel
