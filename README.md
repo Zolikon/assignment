@@ -21,7 +21,7 @@ Aki nem otthonos a gitben:
 * Tömörítsétek be az egész könyvtárat (assignment lesz a neve valószínűleg)
 * A kiterjesztést csapjátok le (különben fenn akad a virus szűrőn), a file neve a naptun kódotok
 * Küldjétek el nekem a **zoltan_pozsonyi@epam.com** címre. Ez céges email, ha valami teljesen ismeretlen vagy egyszer haszálatos emailről küldtök lehet hogy spam lesz belőle
-* **A leadási határidő október 22.(hétfő) reggel 8:00**
+* **A leadási határidő október 24.(szerda) reggel 8:00**
 
 ### Az értékelés:
 Alapvetően a következőket fogom nézni:
