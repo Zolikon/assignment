@@ -1,49 +1,47 @@
 ## Unit test module assignment
 
-Itt a feladat amit be kéne majd adni. Amilyen könyvtárakra szükségetek lehet az be van téve függőségnek.
-Ha nem ismeri fel a könyvtárakat akkor console-ból próbáljátok meg a *mvn clean install* parancsot.
+This is the unit test assignment. All frameworks needed are added as a dependency.
+In case the choosen IDE misses something calling *mvn clean install* from command line should do the trick.
 
-Ha valahol elakadtok a toolok használatában javaslom a google-t, direkt nagyon gyakran használt eszközöket választottam.
-Aki nem otthonos a gitben:
-*git clone https://github.com/Zolikon/assignment.git* -t kell futtatni ott ahova le akarod tölteni(könyvtárastúl jön le)
+If you got stuck somewhere I suggest the google :). I have choosen tools that are widely used.
 
-### A feladat:
-* Van pár osztály, az elmondottak alapján le kéne fedni őket unit tesztekkel.
-* Segítségnek előre betettem az üres teszt osztályokat
-* Van benne a kódban pár apró - nem Java specifikus - implementációs hiba, ha jó tesztekkel feditek le a kódot könnyen megtaláljátok őket. A feladathoz tartozik ezek javítása a kódban.
-* A kódhoz csak javítási céllal szabad nyúlni, és ahol változtattok oda kérek egy kommentet hogy mi volt vele a baj
-### A végső cél, hogy:
-* unit teszttel le legyen fedve a viselkedés
-* a fent említett hibák ki legyenek javítva és dokumentálva van kommentekkel a probléma
-* ha a projectben lefuttatom a 'mvn test' parancsot akkor a tesztek le is fussanak
+### The assignment:
+* There are some classes which should be covered with unit tests.
+* As a help I added the empty test classes
+* There are some minor, not really Java specific implementation errors in the source code. If you choose your test cases well they should be easy to spot. The assignment includes the fixing of those issues. Please mark with comment where you did this and why.
+* Other changes in the code are not allowed.
+### The final goal:
+* The source code should be well covered with unit test, but don't overdo it
+* The above mentioned implementation problems should be fixed with comment
+* If we call *mvn test* command all test should run and be successful
 
-### A leadás módja:
-* Tömörítsétek be az egész könyvtárat (assignment lesz a neve valószínűleg)
-* A kiterjesztést csapjátok le (különben fenn akad a virus szűrőn), a file neve a naptun kódotok
-* Küldjétek el nekem a **zoltan_pozsonyi@epam.com** címre. Ez céges email, ha valami teljesen ismeretlen vagy egyszer haszálatos emailről küldtök lehet hogy spam lesz belőle
-* **A leadási határidő október 24.(szerda) reggel 8:00**
+### Handing in:
+* zip the entire library
+* remove the extension ('.zip', this is because of virus checks) and use your neptun code as the file name
+* Please send it to **zoltan_pozsonyi@epam.com**
+* **DEADLINE IS 8:00 AM, 24th October**
 
-### Az értékelés:
-Alapvetően a következőket fogom nézni:
-* mennyire jól feditek le a kódot teszt esetekkel
-* mennyire követitek azokat, amiket átbeszéltünk (exception tesztelése, dependenciák kimockolása)
+### Evaluation:
+I will check:
+* How well are the different cases covered with unit test
+* How well do you follow the discussed best practices (GIVEN/WHEN/THEN, exception testing, mocking dependencies)
 
-A művetekre 0-10-ig kaptok pontot.
+In the end you will get a point between 0 and 10.
 ***
-Nem tettem bele semmi java varázslatot, ami kis nyelvi akadály lehet azt meg könnyen ki lehet google-zni.
+There are no Java magic here, if you got stuck you should be able to solve it with google.
 
-Épp ezért ha valaki olyat ad be:
-* amiben fordítási hiba van(akár a kódot úgy írja át, akár a tesztben)
-* amiben lefutnak a tesztek, de legalább egy eltörik
-az 0 pont és nem is nézem tovább
+And because of that if someone sends in a solution where:
+* there is some kind of compile error (in the test or in the fixed source code)
+* the tests are running, but there is even one that's failing
+will get 0 point without further checking.
 
-**DE** ha bekülditek a feladatot, én vállalom hogy ezeket hibákat egy napon belül megnézem és ha ilyet találok akkor szólok és **egyszer** lehet javítani, feltéve, hogy még belefér a fent említett határidőbe. Szóval tanácsos nem az utolsó pillanatra hagyni.
+**However** if you send the assignment I will check it within 24 hours for those errors and you will get **one chance** to fix it if if can happen before the deadline. So it would be best not to send it in in the last minute.
 
-Ezt leszámítva cserére/pótlásra nincs lehetőség.
+Other than that no follow-up fix will be accepted.
 ***
-Ha tartjátok magatokat a megbeszéltekhez illetve követitek a példákat, amiket feltettem az órai munka repojába akkor nem lesz gond.
+If you keep in mind what we have talked about you should be fine.
 
-### SOK SIKERT!
+### GOOD LUCK!
 
 
 
